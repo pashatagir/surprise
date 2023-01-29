@@ -1,11 +1,10 @@
 const btnEl = document.getElementById('btn-surprise');
-const containerEl = document.getElementById('surprise');
 const audioEl = document.getElementById('audio');
 const rosesEl = document.getElementById('roses');
 
 btnEl.addEventListener('click', () => {
-  containerEl.classList.toggle('is-hidden');
   rosesEl.classList.toggle('is-hidden');
+  audioEl.classList.toggle('is-hidden');
 });
 
 btnEl.addEventListener('click', handlePlayButton, false);
