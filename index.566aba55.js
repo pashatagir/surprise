@@ -1,0 +1,2 @@
+const e=document.getElementById("btn-surprise"),t=document.getElementById("surprise"),s=document.getElementById("audio"),n=document.getElementById("roses");async function i(){try{await s.play(),e.classList.add("playing")}catch(t){e.classList.remove("playing")}}e.addEventListener("click",(()=>{t.classList.toggle("is-hidden"),n.classList.toggle("is-hidden")})),e.addEventListener("click",(function(){s.paused?i():(s.pause(),s.currentTime=0,e.classList.remove("playing"))}),!1),i();
+//# sourceMappingURL=index.566aba55.js.map
