@@ -1,0 +1,2 @@
+const e=document.getElementById("btn-surprise"),t=document.getElementById("surprise"),s=document.getElementById("audio");async function n(){try{await s.play(),e.classList.add("playing")}catch(t){e.classList.remove("playing")}}e.addEventListener("click",(()=>{t.classList.toggle("is-hidden")})),e.addEventListener("click",(function(){s.paused?n():(s.pause(),s.currentTime=0,e.classList.remove("playing"))}),!1),n();
+//# sourceMappingURL=index.305732de.js.map
